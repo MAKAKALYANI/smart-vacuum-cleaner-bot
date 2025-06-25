@@ -1,0 +1,32 @@
+# 📦 Components List – Smart Vacuum Cleaner
+
+This document includes all the hardware and electronic components required to build the **Smart Vacuum Cleaner** robot — an Arduino-based autonomous cleaning bot that detects obstacles and vacuums surfaces without human input.
+
+---
+
+## 🔧 Core Components
+
+| Component                  | Quantity | Description                                                                |
+|----------------------------|----------|----------------------------------------------------------------------------|
+| **Arduino UNO**            | 1        | Main controller to run navigation and suction logic                        |
+| **Ultrasonic Sensor (HC-SR04)** | 1    | Measures distance to detect and avoid obstacles                            |
+| **IR Sensors**             | 2        | Optional — for path following or obstacle edge detection                   |
+| **DC Motors (BO Motor)**   | 2        | Drives the wheels for forward and turning movement                         |
+| **Motor Driver Shield (L293D)** | 1   | Controls the DC motors from Arduino                                        |
+| **CPU Fan**                | 1        | Acts as the vacuum suction mechanism                                       |
+| **Plastic Bottle + Pipe**  | 1 set    | Makeshift vacuum chamber and air path                                      |
+| **9V Batteries**           | 2        | One each for motor chassis and vacuum fan power                            |
+| **Wheels (Plastic)**       | 2        | Attached to motors for movement                                            |
+| **Caster Wheel**           | 1        | For balance and support (free rotation)                                    |
+| **Jumper Wires**           | 10+      | For internal connections                                                    |
+| **Breadboard**             | 1        | Optional — for prototyping                                                 |
+
+---
+
+## 📝 Notes
+
+- The **CPU fan** is mounted inside a bottle or chamber to create suction.
+- The **ultrasonic sensor** helps the robot avoid obstacles by calculating the safest direction to move.
+- You can extend this system with **IR sensors** to follow predefined paths or room boundaries.
+- A **separate 9V battery** is recommended for the suction motor to avoid voltage drop on logic side.
+
