@@ -56,10 +56,10 @@ To develop a smart robotic vacuum cleaner that:
 - IR sensors can optionally guide the bot along a defined path.
 
 ---
+## 🖥️ Circuit / Schematic
 
-## 📊 Block Diagram
+![Circuit Diagram](circuit_diagram.png)
 
-![Block Diagram](images/block_diagram.jpg)
 
 ---
 
@@ -70,7 +70,5 @@ To develop a smart robotic vacuum cleaner that:
 - Small offices or warehouses
 - Dangerous or hard-to-reach areas
 
----
 
-## 📂 File Structure
 
