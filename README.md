@@ -40,7 +40,7 @@ To develop a smart robotic vacuum cleaner that:
 | Battery (9V)           | Powers the system                           |
 | Chassis + Wheels       | Physical movement and support               |
 
-📄 Full list in [`components_list.md`](components_list.md)
+📄 Full list in [`components_list`](components_list)
 
 ---
 
