@@ -56,12 +56,6 @@ To develop a smart robotic vacuum cleaner that:
 - IR sensors can optionally guide the bot along a defined path.
 
 ---
-## 🖥️ Prototype / Schematic
-
-![Prototype.png](Prototype.png)
-
-
----
 
 ## 💡 Use Cases
 
